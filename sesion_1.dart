@@ -15,4 +15,16 @@ void main(){
   }
   var resultado= sumar(4.6,5.0);
   print(resultado);
+
+  void crearProducto({required nombre, int precio=0}){
+    print("producto $nombre con valor de $precio dolares creado por void ");
+    //return "Producto Creado";
+  }
+
+  crearProducto(nombre: "Portatil");
+  crearProducto(nombre: "Mouse");
+  crearProducto(nombre: "Pantalla", precio: 1100);
+
+
+
 }
