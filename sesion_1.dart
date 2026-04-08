@@ -9,4 +9,10 @@ void main(){
     "loginPass": "1234"
   };
   print(datosSesion["loginUser"]);
+
+  double sumar(double a, double b) {
+    return a+b;
+  }
+  var resultado= sumar(4.6,5.0);
+  print(resultado);
 }
